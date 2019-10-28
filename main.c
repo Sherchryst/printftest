@@ -6,7 +6,7 @@
 /*   By: sgah <sgah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/27 17:08:22 by sgah              #+#    #+#             */
-/*   Updated: 2019/10/28 01:15:38 by sgah             ###   ########.fr       */
+/*   Updated: 2019/10/28 02:01:48 by sgah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,8 +89,6 @@ int	main(int ac, char **av)
   printf("##### Tests BONUS#####\n");
   printf(   ">> Nombre binaire [b] : {101111101111110000001}\n");
   ft_printf("=> Nombre binaire [b] : {%b}\n", 1564545);
-  printf(   ">> Mauvais parametre [k] : {%k}\n", 42);
-  ft_printf("=> Mauvais parametre [k] : {%k}\n", 42);
   printf(   ">> Nombre octal [o] : {%o}\n", 012345);
   ft_printf("=> Nombre octal [o] : {%o}\n", 012345);
   printf(   ">> Test de pile [c c] : {%c} {%c}\n", 0x4142434444434241);
